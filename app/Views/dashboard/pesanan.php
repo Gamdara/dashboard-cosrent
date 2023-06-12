@@ -95,15 +95,13 @@
                 </div>
                 <div class="form-group col-6">
                   <label for="exampleInputEmail1">Foto KTP</label>
-                  <!-- <a href=<?= "'data:image/jpeg;base64,".$datadiri['ktp']."'"?> download="ktp.png"> -->
-                    <img class="col-12" height="400" src=<?= site_url('dashboard/img/'.$datadiri['id'].'/ktp' )?> alt="" srcset="">
-                  <!-- </a> -->
+                 
+                  <img class="col-12" height="400" src=<?= site_url('dashboard/img/'.$datadiri['id'].'/ktp' )?> alt="" srcset="">
+                
                 </div>
                 <div class="form-group col-6">
                   <label for="exampleInputEmail1">Foto KTP + Selfie</label>
-                  <!-- <a href=<?= "'data:image/jpeg;base64,".$datadiri['ktp_selfie']."'"?> download="ktp_selfie.png"> -->
-                    <img class="col-12" height="400" src=<?= site_url('dashboard/img/'.$datadiri['id'].'/ktp_selfie' )?> alt="" srcset="">
-                  <!-- </a> -->
+                  <img class="col-12" height="400" src=<?= site_url('dashboard/img/'.$datadiri['id'].'/ktp_selfie' )?> alt="" srcset="">
                 </div>
                 <div class="form-group  col-6">
                   <label for="exampleInputEmail1">Handphone Kerabat</label>
